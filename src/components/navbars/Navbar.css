@@ -1,0 +1,8 @@
+.btn-anonymous:hover, .btn-anonymous:active, .btn-anonymous:focus {
+    background: transparent!important;
+    color: #000!important;
+    border-color: transparent;
+    box-shadow: none!important;
+    border-radius: 15px;
+    text-decoration: underline!important;
+}

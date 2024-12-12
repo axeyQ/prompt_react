@@ -1,0 +1,50 @@
+.blog-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px;
+    max-width: 260px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .blog-card p {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .blog-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .blog-link h2 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+  .blog-link:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    color:#ffd835!important
+  }
+  .blog-category {
+    font-size: 10px!important;
+    margin-bottom: 12px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: inline;
+    font-weight: 700;
+}

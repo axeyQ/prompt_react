@@ -1,0 +1,14 @@
+.modal-content{background:transparent!important;border-color:transparent!important;}.modal-dialog{max-width:70vw}.modal-header{border-color:transparent!important}.modal-img{width:550px}.modal-div{position:relative;width:60%;transition:all 2s ease-in}.modal-btn{background:rgba(255, 216, 53,.8)!important;border-color:transparent!important;position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);transition:all 2s ease-in}.modal-btn:hover{background:rgba(255, 216, 53,.3)!important;border-color:#ffd835!important}.modal-div:hover .modal-btn{width:100%;height:100%}.LearnMore {
+    color: #ffd835!important;
+    font-size: 18px;
+    font-weight: 700;
+    background:transparent;
+    border-color:transparent;
+    padding:0;
+    text-align:left
+}
+.LearnMore:hover{
+    background:transparent;
+    border-color:transparent;
+    box-shadow:none
+}

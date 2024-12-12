@@ -1,0 +1,69 @@
+
+.blog-cta-counter{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    padding:5px;
+    border-radius:25px;
+    margin-top:40px;
+}
+/* From Uiverse.io by vamsidevendrakumar */ 
+.blog-cta-card {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    position:relative
+  }
+  .bowGift {
+      position: absolute;
+      width: 70%;
+      top: 0px;
+      z-index: 1000000;
+      transform: translate(-50%, -50%);
+      left: 50%;
+  }
+  
+  .blog-cta-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .blog-cta-card:hover .blog-cta-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .blog-cta-card-front,
+  .blog-cta-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  
+  }
+  
+  .blog-cta-card-front {
+    color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+  
+  .blog-cta-card-back {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+    font-size: 25px;
+    transform: rotateY(180deg);
+    padding:10px 20px
+  }
+  .blog-cta-card-back h1{
+    font-size:23px;
+    text-align:center
+  }

@@ -1,0 +1,292 @@
+.bf-bg{
+    min-height:100vh;
+    min-width:100vw;
+    background:linear-gradient(149deg, rgb(0 0 0 / 100%) 0%, #737373 256%);
+    color:white;
+    overflow-x:hidden;
+    position:relative
+}
+.BLACK{
+    font-size:450px;
+    position:absolute;
+    top:-275px;
+    color:white;
+    font-family:"poppins"
+}
+
+.FRIDAY{
+    font-size:450px;
+    position:absolute;
+    bottom:-100px;
+    left:50%;
+    color:#fff335;
+    font-family:"poppins";
+    overflow:hidden
+}
+.bf-counter{
+    position:fixed;
+    bottom:50px;
+    left:50px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    padding:5px;
+    border-radius:25px;
+    z-index:1000;
+}
+
+
+.digital-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for digital look */
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 10px; /* Rounded corners */
+    flex-direction:column;
+    height:100%
+}
+.bf-offers{
+    min-height:100vh
+}
+
+.digital-clock div {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+.clock-container{
+    width:100%
+}
+.digital-clock span {
+    color: #333; /* Text color */
+    font-weight:800
+}
+
+
+/* __________________________ */
+.mob-bf-hero{
+    background:linear-gradient(149deg, rgb(0 0 0 / 0%) 0%, #737373 256%);
+    min-height:100vh;
+    min-width:100vw;
+    overflow-x:hidden;
+    position:relative
+}
+
+.bf-hero{
+    background-image:url("../../../assets/images/Hero-Section-Banner.webp");
+    min-width:100vw;
+    min-height:100vh;
+    background-size:contain;
+    position:relative;
+    background-position:center;
+    background-repeat:no-repeat
+}
+
+.bf-scroll-down{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:16px;
+    font-weight:600
+}
+
+.bf-card-div{
+    position:relative;
+    padding:50px
+}
+
+.bf-card-div img{
+    position:absolute;
+    bottom:-30px;
+    right:0px
+}
+
+.scroll-down-text {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* From Uiverse.io by vamsidevendrakumar */ 
+.bf-card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  position:relative
+}
+.bowGift {
+    position: absolute;
+    width: 70%;
+    top: 0px;
+    z-index: 1000000;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.bf-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.bf-card:hover .bf-card-inner {
+  transform: rotateY(180deg);
+}
+
+.bf-card-front,
+.bf-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
+
+.bf-card-front {
+  color: #fff;
+  border-radius: 25px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.bf-card-back {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.countdown-item {
+    position: relative;
+    width: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #424242 -11.24%, #4B4848 100%);
+    padding: 1px;
+    transform-style: preserve-3d;
+}
+
+.countdown-item:not(:last-child)::before {
+    content: "";
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIzMSIgdmlld0JveD0iMCAwIDcgMzEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMy41IDBDMS41NjcgMCAwIDEuNTY3IDAgMy41QzAgNS40MzMgMS41NjcgNyAzLjUgN0M1LjQzMyA3IDcgNS40MzMgNyAzLjVDNyAxLjU2NyA1LjQzMyAwIDMuNSAwWk0zLjUgMjRDMS41NjcgMjQgMCAyNS41NjcgMCAyNy41QzAgMjkuNDMzIDEuNTY3IDMxIDMuNSAzMUM1LjQzMyAzMSA3IDI5LjQzMyA3IDI3LjVDNyAyNS41NjcgNS40MzMgMjQgMy41IDI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+    width: 7px;
+    height: 31px;
+    background-size: 100% auto;
+    position: absolute;
+    top: 37%;
+    right: -11px;
+    transform: translateX(50%);
+    background-repeat: no-repeat;
+}
+
+.countdown-item .item-box {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #1C1C1C -11.24%, #222222 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.2509803922);
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+
+.countdown-item::after {
+    content: "";
+    width: 100%;
+    height: calc(100% + 8px);
+    background: linear-gradient(180deg, #45454B 88.66%, #212020 100%);
+    box-shadow: 0px 1px 4px 0px #a289b8 inset,0px -3px 2.1px 0px #29282b inset;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateZ(-1px);
+}
+
+.countdown-item .item-box .number {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: .83;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+    display: inline-block;
+    font-family: "Bebas Neue",sans-serif;
+    font-weight:600
+}
+.countdown-item .item-box .number::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 56%;
+    left: 0;
+    background-color: #080707;
+    z-index: 2;
+}
+ .countdown-item .item-box .number::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: calc(56% + 1px);
+    left: 0;
+    background-color: #424242;
+    z-index: 2;
+}
+
+.countdown-item .item-box .label {
+    margin-top: -4px;
+    font-family:"poppins"
+}
+
+.countdown-item .item-box::after {
+    content: "";
+    width: 100%;
+    height: 43%;
+    border-radius: 0 0 8px 8px;
+    background: linear-gradient(180deg, #1C1C1C 0%, #5A5A5E 101.89%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.digital-clock h1{
+    font-family:"Poppins"!important
+}
+.btn-primary:hover,.btn-primary:active,.btn-primary:focus{
+    box-shadow:none;
+    background:transparent
+}
