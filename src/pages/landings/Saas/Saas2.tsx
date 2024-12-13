@@ -8,6 +8,7 @@ import { Footer1 } from 'components/footer';
 import Screenshots from './Screenshots';
 import CallToAction from './CallToAction';
 import MobFeatures from './MobFeatures';
+import HomeHelmet from './HomeHelmet';
 const Section7=React.lazy(()=>import('./Banner'));
 const Step=React.lazy(()=>import('./Step'));
 const NewFeatures =React.lazy(()=>import('./NewFeatures')) ;
@@ -16,7 +17,7 @@ const Saas2 = () => {
    
     return (
         <>
-                
+            <HomeHelmet/>
 
             <div>
    

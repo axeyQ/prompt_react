@@ -23,5 +23,5 @@
   },
   "include": [
     "src"
-  ]
+, "eazyposy-next/src/lib/i18n.ts"  ]
 }

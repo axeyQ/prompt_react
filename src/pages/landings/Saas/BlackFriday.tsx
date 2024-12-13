@@ -14,10 +14,12 @@ import mobOffer from "../../../assets/images/bf-mob-offer.webp"
 
 import { Footer1 } from "components/footer";
 import { Navbar3 } from "components/navbars";
+// import BlackFridayHelmet from "./BlackFridayHelmet";
 const BlackFriday = () => {
     const targetDate = new Date("12/25/2024");
     return ( 
         <>
+        {/* <BlackFridayHelmet/> */}
                         <Navbar3 navClass="navbar-light" isSticky={true} fixedWidth buttonClass="btn-primary btn-sm" />
 
     <div className="bf-bg">
